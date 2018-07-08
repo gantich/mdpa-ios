@@ -12,9 +12,12 @@
 		B3AECD6D20F2357B00E9D6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AECD6B20F2357B00E9D6DF /* Main.storyboard */; };
 		B3AECD6F20F2357C00E9D6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AECD6E20F2357C00E9D6DF /* Assets.xcassets */; };
 		B3AECD7220F2357C00E9D6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AECD7020F2357C00E9D6DF /* LaunchScreen.storyboard */; };
+		E882DF98FA786405405964EA /* Pods_mdpa_tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BA5972C61AE16E749475B5 /* Pods_mdpa_tinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		21BA5972C61AE16E749475B5 /* Pods_mdpa_tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mdpa_tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F135F8270F98060C5AB0695 /* Pods-mdpa-tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdpa-tinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder.debug.xcconfig"; sourceTree = "<group>"; };
 		B3AECD6420F2357A00E9D6DF /* mdpa-tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mdpa-tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3AECD6920F2357B00E9D6DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,8 @@
 		B3AECD6E20F2357C00E9D6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3AECD7120F2357C00E9D6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3AECD7320F2357C00E9D6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3AECD7920F23CD100E9D6DF /* mdpa-tinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mdpa-tinder.entitlements"; sourceTree = "<group>"; };
+		C5E6599E87433FA973B9F36E /* Pods-mdpa-tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdpa-tinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +34,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E882DF98FA786405405964EA /* Pods_mdpa_tinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D4C0E3792AB65094F0D1F83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F135F8270F98060C5AB0695 /* Pods-mdpa-tinder.debug.xcconfig */,
+				C5E6599E87433FA973B9F36E /* Pods-mdpa-tinder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FB51D94EDE6FBD653639A83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21BA5972C61AE16E749475B5 /* Pods_mdpa_tinder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3AECD5B20F2357A00E9D6DF = {
 			isa = PBXGroup;
 			children = (
 				B3AECD6620F2357A00E9D6DF /* mdpa-tinder */,
 				B3AECD6520F2357A00E9D6DF /* Products */,
+				1D4C0E3792AB65094F0D1F83 /* Pods */,
+				4FB51D94EDE6FBD653639A83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +79,7 @@
 		B3AECD6620F2357A00E9D6DF /* mdpa-tinder */ = {
 			isa = PBXGroup;
 			children = (
+				B3AECD7920F23CD100E9D6DF /* mdpa-tinder.entitlements */,
 				B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */,
 				B3AECD6920F2357B00E9D6DF /* ViewController.swift */,
 				B3AECD6B20F2357B00E9D6DF /* Main.storyboard */,
@@ -71,9 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3AECD7620F2357C00E9D6DF /* Build configuration list for PBXNativeTarget "mdpa-tinder" */;
 			buildPhases = (
+				A8442A20E7B6C7BBF5626649 /* [CP] Check Pods Manifest.lock */,
 				B3AECD6020F2357A00E9D6DF /* Sources */,
 				B3AECD6120F2357A00E9D6DF /* Frameworks */,
 				B3AECD6220F2357A00E9D6DF /* Resources */,
+				FE8D35D761C34C697A0B7651 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +124,11 @@
 				TargetAttributes = {
 					B3AECD6320F2357A00E9D6DF = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -129,6 +162,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A8442A20E7B6C7BBF5626649 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mdpa-tinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8D35D761C34C697A0B7651 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3AECD6020F2357A00E9D6DF /* Sources */ = {
@@ -278,10 +362,14 @@
 		};
 		B3AECD7720F2357C00E9D6DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F135F8270F98060C5AB0695 /* Pods-mdpa-tinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "mdpa-tinder/mdpa-tinder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UH5USNCK7;
 				INFOPLIST_FILE = "mdpa-tinder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,10 +383,14 @@
 		};
 		B3AECD7820F2357C00E9D6DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5E6599E87433FA973B9F36E /* Pods-mdpa-tinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "mdpa-tinder/mdpa-tinder.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UH5USNCK7;
 				INFOPLIST_FILE = "mdpa-tinder/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
