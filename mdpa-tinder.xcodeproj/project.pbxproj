@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B3AECD6820F2357A00E9D6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */; };
-		B3AECD6A20F2357B00E9D6DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AECD6920F2357B00E9D6DF /* ViewController.swift */; };
+		B3AECD6A20F2357B00E9D6DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AECD6920F2357B00E9D6DF /* LoginViewController.swift */; };
 		B3AECD6D20F2357B00E9D6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AECD6B20F2357B00E9D6DF /* Main.storyboard */; };
-		B3AECD6F20F2357C00E9D6DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3AECD6E20F2357C00E9D6DF /* Assets.xcassets */; };
 		B3AECD7220F2357C00E9D6DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AECD7020F2357C00E9D6DF /* LaunchScreen.storyboard */; };
+		B3AECD8120F27CC800E9D6DF /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AECD8020F27CC800E9D6DF /* MainTabBarController.swift */; };
+		B3BF173420F2AC640090112A /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF173320F2AC640090112A /* DiscoveryViewController.swift */; };
+		B3BF173720F2ACA80090112A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF173620F2ACA80090112A /* ChatViewController.swift */; };
+		B3BF173920F2ACBF0090112A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF173820F2ACBF0090112A /* SettingsViewController.swift */; };
+		B3BF173C20F2B1E50090112A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BF173B20F2B1E50090112A /* Assets.xcassets */; };
 		E882DF98FA786405405964EA /* Pods_mdpa_tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BA5972C61AE16E749475B5 /* Pods_mdpa_tinder.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,12 +24,16 @@
 		9F135F8270F98060C5AB0695 /* Pods-mdpa-tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdpa-tinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder.debug.xcconfig"; sourceTree = "<group>"; };
 		B3AECD6420F2357A00E9D6DF /* mdpa-tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mdpa-tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3AECD6920F2357B00E9D6DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3AECD6920F2357B00E9D6DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B3AECD6C20F2357B00E9D6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B3AECD6E20F2357C00E9D6DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3AECD7120F2357C00E9D6DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3AECD7320F2357C00E9D6DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3AECD7920F23CD100E9D6DF /* mdpa-tinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "mdpa-tinder.entitlements"; sourceTree = "<group>"; };
+		B3AECD8020F27CC800E9D6DF /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		B3BF173320F2AC640090112A /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		B3BF173620F2ACA80090112A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B3BF173820F2ACBF0090112A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B3BF173B20F2B1E50090112A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5E6599E87433FA973B9F36E /* Pods-mdpa-tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdpa-tinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,14 +88,90 @@
 			isa = PBXGroup;
 			children = (
 				B3AECD7920F23CD100E9D6DF /* mdpa-tinder.entitlements */,
-				B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */,
-				B3AECD6920F2357B00E9D6DF /* ViewController.swift */,
-				B3AECD6B20F2357B00E9D6DF /* Main.storyboard */,
-				B3AECD6E20F2357C00E9D6DF /* Assets.xcassets */,
-				B3AECD7020F2357C00E9D6DF /* LaunchScreen.storyboard */,
 				B3AECD7320F2357C00E9D6DF /* Info.plist */,
+				B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */,
+				B3AECD7C20F2748F00E9D6DF /* Controllers */,
+				B3AECD7A20F2747000E9D6DF /* DA */,
+				B3AECD7D20F2749800E9D6DF /* Models */,
+				B3AECD7B20F2747500E9D6DF /* Views */,
 			);
 			path = "mdpa-tinder";
+			sourceTree = "<group>";
+		};
+		B3AECD7A20F2747000E9D6DF /* DA */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DA;
+			sourceTree = "<group>";
+		};
+		B3AECD7B20F2747500E9D6DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF173B20F2B1E50090112A /* Assets.xcassets */,
+				B3AECD6B20F2357B00E9D6DF /* Main.storyboard */,
+				B3AECD7020F2357C00E9D6DF /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B3AECD7C20F2748F00E9D6DF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF173A20F2ACC60090112A /* SettingsController */,
+				B3BF173520F2AC900090112A /* ChatController */,
+				B3BF173220F2AC320090112A /* DiscoveryController */,
+				B3AECD7F20F27C9900E9D6DF /* MainController */,
+				B3AECD7E20F274A100E9D6DF /* LoginController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B3AECD7D20F2749800E9D6DF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3AECD7E20F274A100E9D6DF /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				B3AECD6920F2357B00E9D6DF /* LoginViewController.swift */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		B3AECD7F20F27C9900E9D6DF /* MainController */ = {
+			isa = PBXGroup;
+			children = (
+				B3AECD8020F27CC800E9D6DF /* MainTabBarController.swift */,
+			);
+			path = MainController;
+			sourceTree = "<group>";
+		};
+		B3BF173220F2AC320090112A /* DiscoveryController */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF173320F2AC640090112A /* DiscoveryViewController.swift */,
+			);
+			path = DiscoveryController;
+			sourceTree = "<group>";
+		};
+		B3BF173520F2AC900090112A /* ChatController */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF173620F2ACA80090112A /* ChatViewController.swift */,
+			);
+			path = ChatController;
+			sourceTree = "<group>";
+		};
+		B3BF173A20F2ACC60090112A /* SettingsController */ = {
+			isa = PBXGroup;
+			children = (
+				B3BF173820F2ACBF0090112A /* SettingsViewController.swift */,
+			);
+			path = SettingsController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3AECD7220F2357C00E9D6DF /* LaunchScreen.storyboard in Resources */,
-				B3AECD6F20F2357C00E9D6DF /* Assets.xcassets in Resources */,
+				B3BF173C20F2B1E50090112A /* Assets.xcassets in Resources */,
 				B3AECD6D20F2357B00E9D6DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3AECD6A20F2357B00E9D6DF /* ViewController.swift in Sources */,
+				B3AECD8120F27CC800E9D6DF /* MainTabBarController.swift in Sources */,
+				B3AECD6A20F2357B00E9D6DF /* LoginViewController.swift in Sources */,
 				B3AECD6820F2357A00E9D6DF /* AppDelegate.swift in Sources */,
+				B3BF173720F2ACA80090112A /* ChatViewController.swift in Sources */,
+				B3BF173420F2AC640090112A /* DiscoveryViewController.swift in Sources */,
+				B3BF173920F2ACBF0090112A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
