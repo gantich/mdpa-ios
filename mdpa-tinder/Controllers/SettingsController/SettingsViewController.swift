@@ -1,4 +1,4 @@
-i//
+//
 //  SettingsViewController.swift
 //  mdpa-tinder
 //

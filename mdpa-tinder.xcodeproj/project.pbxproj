@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B34AB015212DE79A00D52E19 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34AB014212DE79A00D52E19 /* RegisterViewController.swift */; };
 		B3AECD6820F2357A00E9D6DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */; };
 		B3AECD6A20F2357B00E9D6DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3AECD6920F2357B00E9D6DF /* LoginViewController.swift */; };
 		B3AECD6D20F2357B00E9D6DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3AECD6B20F2357B00E9D6DF /* Main.storyboard */; };
@@ -16,12 +17,14 @@
 		B3BF173720F2ACA80090112A /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF173620F2ACA80090112A /* ChatViewController.swift */; };
 		B3BF173920F2ACBF0090112A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF173820F2ACBF0090112A /* SettingsViewController.swift */; };
 		B3BF173C20F2B1E50090112A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3BF173B20F2B1E50090112A /* Assets.xcassets */; };
+		B3BF173E20F2C3F00090112A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BF173D20F2C3F00090112A /* User.swift */; };
 		E882DF98FA786405405964EA /* Pods_mdpa_tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21BA5972C61AE16E749475B5 /* Pods_mdpa_tinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21BA5972C61AE16E749475B5 /* Pods_mdpa_tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mdpa_tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F135F8270F98060C5AB0695 /* Pods-mdpa-tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdpa-tinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder.debug.xcconfig"; sourceTree = "<group>"; };
+		B34AB014212DE79A00D52E19 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		B3AECD6420F2357A00E9D6DF /* mdpa-tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mdpa-tinder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3AECD6720F2357A00E9D6DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3AECD6920F2357B00E9D6DF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		B3BF173620F2ACA80090112A /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		B3BF173820F2ACBF0090112A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B3BF173B20F2B1E50090112A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3BF173D20F2C3F00090112A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C5E6599E87433FA973B9F36E /* Pods-mdpa-tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mdpa-tinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,6 +68,14 @@
 				21BA5972C61AE16E749475B5 /* Pods_mdpa_tinder.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B34AB013212DE77400D52E19 /* RegisterController */ = {
+			isa = PBXGroup;
+			children = (
+				B34AB014212DE79A00D52E19 /* RegisterViewController.swift */,
+			);
+			path = RegisterController;
 			sourceTree = "<group>";
 		};
 		B3AECD5B20F2357A00E9D6DF = {
@@ -118,6 +130,7 @@
 		B3AECD7C20F2748F00E9D6DF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B34AB013212DE77400D52E19 /* RegisterController */,
 				B3BF173A20F2ACC60090112A /* SettingsController */,
 				B3BF173520F2AC900090112A /* ChatController */,
 				B3BF173220F2AC320090112A /* DiscoveryController */,
@@ -130,6 +143,7 @@
 		B3AECD7D20F2749800E9D6DF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B3BF173D20F2C3F00090112A /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +287,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-mdpa-tinder/Pods-mdpa-tinder-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
@@ -280,9 +295,12 @@
 				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
 				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
@@ -290,6 +308,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -306,9 +326,11 @@
 				B3AECD8120F27CC800E9D6DF /* MainTabBarController.swift in Sources */,
 				B3AECD6A20F2357B00E9D6DF /* LoginViewController.swift in Sources */,
 				B3AECD6820F2357A00E9D6DF /* AppDelegate.swift in Sources */,
+				B34AB015212DE79A00D52E19 /* RegisterViewController.swift in Sources */,
 				B3BF173720F2ACA80090112A /* ChatViewController.swift in Sources */,
 				B3BF173420F2AC640090112A /* DiscoveryViewController.swift in Sources */,
 				B3BF173920F2ACBF0090112A /* SettingsViewController.swift in Sources */,
+				B3BF173E20F2C3F00090112A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
